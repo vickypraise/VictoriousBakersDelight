@@ -1,0 +1,51 @@
+.header{
+    background: url("images/pink.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    background-position: center;
+}
+.cat{
+    color: white;
+}
+.nav{
+    margin-top: auto;
+    display: flex;
+}
+.cake{
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.cake li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.cake a{
+    color: white;
+    text-decoration: none;
+}
+.cake a:hover{
+    color: yellow;
+}
+.vanila{
+    text-decoration: underline;
+     text-align: center;
+    color:wheat
+}
+.choco{
+    text-align: center;
+    color: wheat;
+    text-size-adjust: 20%;
+}
+
+.home{
+    margin-top: 10rem;
+}
+.footer{
+    color: red;
+    font: italic;
+}
